@@ -35,7 +35,7 @@ struct BackgroundOverlays9: View {
                                     .font(.headline)
                                     .foregroundColor(.white)
                             )
-                    .shadow(color: .gray, radius: 10,x: 5,y: 5)
+                    .shadow(color: .white, radius: 10,x: 5,y: 5)
                         ,alignment: .bottomTrailing
                     )
                     

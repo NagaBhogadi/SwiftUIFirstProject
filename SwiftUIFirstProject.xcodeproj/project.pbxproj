@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9A6A00F42FE0804500A07333 /* StacksSwiftUI10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A00F32FE0804500A07333 /* StacksSwiftUI10.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9A732B742FDDD8B300AE6603 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A6A00F32FE0804500A07333 /* StacksSwiftUI10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksSwiftUI10.swift; sourceTree = "<group>"; };
 		9A732B662FDDD8B200AE6603 /* SwiftUIFirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A732B732FDDD8B300AE6603 /* SwiftUIFirstProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFirstProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A732B7D2FDDD8B300AE6603 /* SwiftUIFirstProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFirstProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		9A732B5D2FDDD8B200AE6603 = {
 			isa = PBXGroup;
 			children = (
+				9A6A00F32FE0804500A07333 /* StacksSwiftUI10.swift */,
 				9A732B682FDDD8B200AE6603 /* SwiftUIFirstProject */,
 				9A732B762FDDD8B300AE6603 /* SwiftUIFirstProjectTests */,
 				9A732B802FDDD8B300AE6603 /* SwiftUIFirstProjectUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6A00F42FE0804500A07333 /* StacksSwiftUI10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
