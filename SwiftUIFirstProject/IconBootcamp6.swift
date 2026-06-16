@@ -10,7 +10,7 @@ import SwiftUI
 struct IconBootcamp6: View {
     var body: some View {
         Image(systemName: "heart.fill")
-        //            .font(.caption)
+//                    .font(.caption)
 //            .font(.system(size: 200))
 //            .resizable()
 //            .scaledToFit()
