@@ -28,7 +28,7 @@ struct SafeArea: View {
                         
                     }
                 }
-//                            .ignoresSafeArea(edges: .all)
+                            .ignoresSafeArea(edges: .top)
             }
             .background(
                 Color.orange
