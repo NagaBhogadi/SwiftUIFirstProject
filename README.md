@@ -1,85 +1,100 @@
 # SwiftUI First Project
 
-## Description
-This project is created to practice SwiftUI basics.  
-It contains multiple small SwiftUI examples such as background overlays, colors, gradients, icons, images, shapes, and text.
+This project contains my SwiftUI practice screens and concepts.
+I created different SwiftUI files to learn views, layouts, state, binding, buttons, images, animations, and login screen design.
 
-## Topics Covered
+## Topics I Practiced
 
-### 1. Assets
-Used to store images, icons, colors, and other project resources.
+* Text
+* Images
+* Icons
+* Buttons
+* Colors
+* Gradients
+* Padding
+* Frames
+* Stacks
+* ScrollView
+* LazyGrid
+* ForEach
+* Conditional Statements
+* Ternary Operators
+* @State
+* Binding
+* Extract Functions
+* Extract SubViews
+* Safe Area
+* Animations
+* Animation Timing
+* Login Page UI
 
-### 2. BackgroundOverlays
-Practiced adding background colors, images, and overlays to SwiftUI views.
+## Login Page
 
-### 3. ColorBootcamp
-Practiced using SwiftUI colors such as:
-- system colors
-- custom colors
-- asset colors
-- opacity
+In `LoginPage.swift`, I created a simple login screen using SwiftUI.
 
-### 4. ContentView
-Main SwiftUI view file where the app UI starts.
+### What I Added
 
-### 5. FrameBootcamp
-Practiced using `frame()` to control width, height, alignment, and layout.
+* User icon using `Image(systemName:)`
+* Login title using `Text`
+* Username input using `TextField`
+* Password input using `SecureField`
+* Login button using `Button`
+* `@State` variables for username and password
+* Binding using `$username` and `$password`
+* Spacing and padding for clean layout
+* Button styling with background color, corner radius, and white text
+* Forgot Password text
 
-### 6. Gradients
-Practiced different types of gradients:
-- Linear Gradient
-- Radial Gradient
-- Angular Gradient
+### Screenshot
 
-### 7. IconBootcamp
-Practiced using SF Symbols icons in SwiftUI.
+<img width="285" height="580" alt="LogIn page Swift UI" src="https://github.com/user-attachments/assets/24582376-90f7-4217-81e5-3fb278ad27a7" />
 
-### 8. ImageBootcamp
-Practiced displaying images from Assets and system images.
 
-### 9. ShapesBootcamp
-Practiced SwiftUI shapes such as:
-- Circle
-- Rectangle
-- RoundedRectangle
-- Capsule
-- Ellipse
 
-### 10. TextBootcamp
-Practiced displaying and styling text using:
-- font
-- color
-- bold
-- italic
-- multiline text
-- alignment
+## Project Structure
 
-## Technologies Used
-- Swift
-- SwiftUI
-- Xcode
-- SF Symbols
-- Assets Catalog
-
-## How to Run
-1. Open the project in Xcode.
-2. Select an iPhone simulator.
-3. Press `Command + R`.
-4. The app will run in the simulator.
+```text
+SwiftUIFirstProject
+├── Assets.xcassets
+├── 3*3Matrix.swift
+├── @State.swift
+├── AddingPadding.swift
+├── AnimationTiming.swift
+├── Animations.swift
+├── BackgroundOverlays9.swift
+├── Binding.swift
+├── Buttons.swift
+├── ColorBootcamp.swift
+├── ConditionalStatements.swift
+├── ContentView.swift
+├── ExtractFunctions.swift
+├── ExtractSubView.swift
+├── ForEachStatements.swift
+├── FrameBootcamp8.swift
+├── Gradients.swift
+├── IconBootcamp6.swift
+├── ImageBootcamp7.swift
+├── InitsAndEnums.swift
+├── LazyGrid.swift
+├── LoginPage.swift
+├── SafeArea.swift
+├── SapesBootcamp.swift
+├── ScrollView.swift
+├── StacksSwiftUI10.swift
+├── SwiftUIFirstProjectApp.swift
+├── TernaryOperators.swift
+├── TextBootcamp.swift
+└── README.md
+```
 
 ## What I Learned
-- How to create basic SwiftUI views
-- How to use Text, Image, Shapes, Icons, Colors, and Gradients
-- How to apply frames, backgrounds, and overlays
-- How to organize SwiftUI practice files
-- How to use Assets in Xcode
 
-## Future Improvements
-- Add more SwiftUI components
-- Practice VStack, HStack, and ZStack
-- Add buttons and navigation
-- Create small real-time UI screens
-- Improve project structure
+Through this project, I learned how SwiftUI views are created and how different UI components work together. I practiced creating reusable layouts, handling state changes, styling views, and organizing multiple SwiftUI practice files in one project.
 
-## Author
-Created by Srinivas
+## Technologies Used
+
+* Swift
+* SwiftUI
+* Xcode
+* Git
+* GitHub
