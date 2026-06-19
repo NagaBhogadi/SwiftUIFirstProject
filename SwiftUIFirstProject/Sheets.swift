@@ -27,7 +27,7 @@ struct Sheets: View {
         //            SecondScreen()
         
         .sheet(isPresented: $showSheet, content: {
-// DO not conditional logic 
+// DO not conditional logic
             SecondScreen()
             
         })
